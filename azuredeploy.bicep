@@ -50,8 +50,8 @@ var openAiSettings = {
   sku: openAiSku
   maxConversationTokens: '2000'
   model: {
-    name: 'gpt-35-turbo'
-    version: '0301'
+    name: 'gpt-35-turbo-16k'
+    version: '0613'
     deployment: {
       name: 'chatmodel'
     }
