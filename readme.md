@@ -8,7 +8,7 @@ products:
 name: Sample chat app using Azure Cosmos DB for NoSQL and Azure OpenAI
 urlFragment: chat-app
 description: Sample application that implements multiple chat threads using the Azure OpenAI "gpt-35-turbo" model and Azure Cosmos DB for NoSQL for storage.
-azureDeploy: https://raw.githubusercontent.com/azure-samples/cosmosdb-chatgpt/main/azuredeploy.json
+azureDeploy: https://raw.githubusercontent.com/yelamanchili-murali/cosmosdb-chatgpt/main/azuredeploy.json
 ---
 
 # Azure Cosmos DB + Azure OpenAI ChatGPT
@@ -50,7 +50,7 @@ If you do not expect to modify this solution and deploy merged changes, you can 
 1. Click Fork in the upper right hand corner of this page to your account.
 1. From your forked version, open this `README.md`` file to change the path for the ***Deploy To Azure*** button to your local repository. Commit the change to your repo.
 1. Click ***Deploy to Azure*** below and follow the prompts in Azure Portal to deploy this solution.
-1. In the Custom Deployment blade in Azure Portal, modify **App Git Repository** to point to your forked GitHub repo for this solution. By default the value is `https://github.com/Azure-Samples/cosmosdb-chatgpt.git`
+1. In the Custom Deployment blade in Azure Portal, modify **App Git Repository** to point to your forked GitHub repo for this solution. By default the value is `https://github.com/yelamanchili-murali/cosmosdb-chatgpt.git`
 1. If you deploy this solution without making either of these changes, you can update the repository by disconnecting and connecting an external git repository pointing to your fork from within Azure App Service Deployment Center blade in Azure Portal.
 
 
@@ -64,10 +64,10 @@ The provided ARM or Bicep Template will provision the following resources:
 
 All connection information for Azure Cosmos DB and Azure Open AI is zero-touch and injected as environment variables in the Azure App Service instance at deployment time. 
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure-Samples%2Fcosmosdb-chatgpt%2Fmain%2Fazuredeploy.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fyelamanchili-murali%2Fcosmosdb-chatgpt%2Fmain%2Fazuredeploy.json)
 
 **Note:** If you already have an Azure OpenAI account or wish to use a different one, use this template instead. You will be prompted to provide the name of the Azure OpenAI account, a key, and the name of the model used for the completions.
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure-Samples%2Fcosmosdb-chatgpt%2Fmain%2Fazuredeploy-no-aoai.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fyelamanchili-murali%2Fcosmosdb-chatgpt%2Fmain%2Fazuredeploy-no-aoai.json)
 
 
 ### Quickstart
